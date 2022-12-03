@@ -1,9 +1,9 @@
 # KinanCity-Resend
 
-This tool is used to figure out which accounts did not get activation links in (KinanCity)[https://github.com/drallieiv/KinanCity] and attempt to resend the activation link.
+This tool is used to figure out which accounts did not get activation links in [KinanCity](https://github.com/drallieiv/KinanCity) and attempt to resend the activation link.
 The information from the account file and the logged links is compared to determine which accounts do not have a link recorded.
 
-Thanks to (Gustavo Momente)[https://github.com/gustavo-momente/KinanCity/blob/gm-resend-activation-email/KinanCity-extras/resender.py] for the original script that this one is based on.
+Thanks to [Gustavo Momente](https://github.com/gustavo-momente/KinanCity/blob/gm-resend-activation-email/KinanCity-extras/resender.py) for the original script that this one is based on.
 
 # Get Started With Python
 This script was written with Python3.6.
