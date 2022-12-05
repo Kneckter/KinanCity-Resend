@@ -69,7 +69,7 @@ def parseFile(args):
                 ret_accts_data.remove(acct_entry)
         except Exception as e:
             #print(e)
-            print(acct_entry['username']+";"+acct_entry['password']+";"+acct_entry['email'])
+            print(acct_entry['username']+";"+acct_entry['email']+";"+acct_entry['password'])
         
     print("Lines in return data: "+str(len(ret_accts_data)))
     return ret_accts_data
